@@ -12,8 +12,8 @@ Model: "sequential"
 |flatten (Flatten)    |      (None, 5000)       |       0         |
 |dense (Dense)        |     (None, 2)        |         10002     |
 
-Total params: 441,902
-Trainable params: 441,902
+Total params: 441,902<br>
+Trainable params: 441,902<br>
 Non-trainable params: 0
 
 
