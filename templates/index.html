@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Text Classification</title>
+</head>
+<body>
+<h1 align="center">Text Classification using deep learning, Word Embeddings</h1>
+<h3 align="center">More of a spam-ham classifier</h3>
+<form action="/predict" method="post">
+    <p align="center">Enter Text here:</p>
+    <p align="center"><textarea id="text" name="text" rows="2" cols="100">
+    </textarea></p>
+    <p align="center"><input type="submit" value="Submit"></p>
+</form>
+<p align="center">Example texts to predict:</p>
+<center>
+    <p style="color:blue">Nah I don't think he goes to usf, he lives around here though ------ HAM</p>
+    <p style="color:red">Free entry in 2 a wkly comp to win FA Cup final tkts 21st May 2005. Text FA to 87121 to receive entry question(std txt rate)T&C's apply 08452810075over18's ------SPAM</p>
+    <p style="color:blue">I'm gonna be home soon and i don't want to talk about this stuff anymore tonight, k? I've cried enough today. ------ HAM</p>
+    <p style="color:red">SIX chances to win CASH! From 100 to 20,000 pounds txt> CSH11 and send to 87575. Cost 150p/day, 6days, 16+ TsandCs apply Reply HL 4 info ------ SPAM</p>
+    </center>
+<p align="center">Category:</p>
+<p align="center"><b>{{response}}</b></p>
+</body>
+</html>
