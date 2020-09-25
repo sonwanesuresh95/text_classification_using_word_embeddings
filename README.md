@@ -6,15 +6,11 @@ Model architecture is as follows:
 
 Model: "sequential"
 
-|Layer (type)      |           Output Shape      |        Param #   |
-| :---        |    :----:   |          ---: |
-|embedding (Embedding) |     (None, 100, 50)     |      431900    |
-|flatten (Flatten)    |      (None, 5000)       |       0         |
-|dense (Dense)        |     (None, 2)        |         10002     |
-
-Total params: 441,902<br>
-Trainable params: 441,902<br>
-Non-trainable params: 0
+|Layer (type)      |
+| ---        | 
+|embedding (Embedding) |   
+|flatten (Flatten)    |    
+|dense (Dense)        |    
 
 
 ## Usage
