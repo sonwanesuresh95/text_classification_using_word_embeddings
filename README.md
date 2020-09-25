@@ -4,13 +4,13 @@ A Deep Learning Text Classification model using Word Embeddings.
 This is a deep learning based spam-ham classifier which is trained using keras Embedding layer.<br>
 Model architecture is as follows:
 
-Model: "sequential_0"
+Model: "sequential"
 
 |Layer (type)      |           Output Shape      |        Param #   |
 | :---        |    :----:   |          ---: |
-|embedding_0 (Embedding) |     (None, 100, 50)     |      431900    |
-|flatten_0 (Flatten)    |      (None, 5000)       |       0         |
-|dense_0 (Dense)        |     (None, 2)        |         10002     |
+|embedding (Embedding) |     (None, 100, 50)     |      431900    |
+|flatten (Flatten)    |      (None, 5000)       |       0         |
+|dense (Dense)        |     (None, 2)        |         10002     |
 
 Total params: 441,902
 Trainable params: 441,902
